@@ -10,3 +10,11 @@ To try it out, run:
 `docker run -it --rm docker/doodle:cheers`
 
 Complete source can be found [here](https://github.com/docker/doodle).
+
+
+step-by-step:
+```
+> cd cheers2019/
+> docker build -t whitechno/cheers2019 .
+> docker run -it --rm whitechno/cheers2019
+```
